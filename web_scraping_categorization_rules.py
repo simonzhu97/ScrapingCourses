@@ -70,4 +70,4 @@ for i in range(num_cats):
   find_departs(a_table,cat_dict,cat.get_text())
   cat = a_table.find_next('h3')
 
-cat_dict
+print(cat_dict)
